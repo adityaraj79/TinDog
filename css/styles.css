@@ -117,10 +117,34 @@ p{
 }
 
 /* Pricing section */
-#pricing{
-    padding: 100px;
-    text-align: center;
+#pricing {
+  padding: 100px;
 }
-.pricing-col{
-    padding: 3% 2%;
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
